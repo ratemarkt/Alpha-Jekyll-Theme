@@ -2361,6 +2361,11 @@
 				color: #ffffff;
 			}
 
+            .icon.major.accent6 {
+                background: #9d7c97;
+                color: #ffffff;
+            }
+
 /* Image */
 
 	.image {
@@ -3170,8 +3175,12 @@
 /* CTA */
 
 	#cta {
-		background: #e89980;
-		color: #f9e5df;
+		background-color: #4361c2;
+        background-image: url(/assets/images/overlay3.svg);
+        background-position: top left, center center,  center center;
+        background-repeat: repeat, no-repeat;
+        background-size: 100%, auto;
+		color: #fff;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
 	}
