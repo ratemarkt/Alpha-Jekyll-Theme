@@ -48,6 +48,40 @@
 		-webkit-text-size-adjust: none;
 	}
 
+    .launch {
+        position: absolute;
+        left: 0px;
+        z-index: 0;
+        width: 350px;
+    }
+
+    .launch img {
+        width: 100%;
+        height: auto;
+    }
+
+    .rocket {
+        position: absolute;
+        right: -250px;
+        top: 250px;
+    }
+
+    .rocket img {
+        width: 80%;
+        height: auto;
+    }
+
+    .sunsystem {
+        position: absolute;
+        left: -200px;
+        top: 0px;
+    }
+
+    .sunsystem img {
+        width: 100%;
+        height: auto;
+    }
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -113,6 +147,30 @@
 
 	@media screen and (max-width: 1280px) {
 
+        .rocket {
+            right: -250px;
+        }
+
+        .rocket img {
+            width: 60%;
+        }
+
+        .sunsystem {
+            left: -250px;
+        }
+
+        .sunsystem img {
+            width: 80%;
+        }
+
+        .launch img {
+            width: 70%;
+        }
+
+        .launch {
+            left: -50px;
+        }
+
 		.container.\31 25\25 {
 			width: 100%;
 			max-width: 75em;
@@ -139,6 +197,30 @@
 
 	@media screen and (max-width: 980px) {
 
+        .rocket img {
+            width: 50%;
+        }
+
+        .sunsystem img {
+            width: 80%;
+        }
+
+        .launch img {
+            width: 60%;
+        }
+
+        .rocket {
+            right: -250px;
+        }
+
+        .sunsystem {
+            left: -270px;
+        }
+
+        .launch {
+            left: -100px;
+        }
+
 		.container.\31 25\25 {
 			width: 100%;
 			max-width: 112.5%;
@@ -164,6 +246,10 @@
 	}
 
 	@media screen and (max-width: 840px) {
+
+        .rocket, .sunsystem, .launch {
+            display: none;
+        }
 
 		.container.\31 25\25 {
 			width: 100%;
@@ -3035,10 +3121,10 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #4686a0;
-		background-image: url(/assets/images/overlay2.png), url(/assets/images/overlay3.svg), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+		background-image: url(/assets/images/space.jpg), url(/assets/images/overlay3.svg), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
 		background-position: top left,    center center,  center center;
 		background-repeat: repeat,							no-repeat;
-		background-size: auto,    cover,  cover;
+		background-size: 80%,    cover,  cover;
 		color: rgba(255, 255, 255, 0.75);
 		padding: 12em 0 20em 0;
 		text-align: center;
@@ -3057,6 +3143,7 @@
 			line-height: 1em;
 			margin: 0 0 0.5em 0;
 			padding: 0;
+            z-index: 10;
 		}
 
 		#banner p {
