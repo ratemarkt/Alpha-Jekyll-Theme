@@ -3286,11 +3286,6 @@
 		#cta input[type="submit"],
 		#cta input[type="reset"],
 		#cta input[type="button"],
-		#cta .button {
-			box-shadow: none;
-			background: #fff;
-			color: #e89980;
-		}
 
 		#cta input[type="text"],
 		#cta input[type="password"],
