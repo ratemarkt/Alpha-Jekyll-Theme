@@ -48,6 +48,33 @@
 		-webkit-text-size-adjust: none;
 	}
 
+	.pricing {
+		margin-top: 25px;
+	}
+
+	.pricing .plus {
+		font-size: 2em;
+		font-weight: bold;
+	}
+
+	.fee-usage {
+		font-size: 0.7em;
+	}
+	.fee .amount {
+		font-size: 3em;
+		font-weight: bold;
+	}
+
+	.fee .currency {
+		font-size: 1.5em;
+		font-weight: bold;
+	}
+
+	.fee .per {
+		font-size: 1.0em;
+		font-weight: bold;
+	}
+
     .launch {
         position: absolute;
         left: 68px;
@@ -2270,6 +2297,18 @@
 	}
 
 /* Box */
+
+	.box-pricing {
+		padding: 1.5em !important;
+	}
+
+	.box-pricing-popular {
+		box-shadow: 10px 10px 0px 5px #e5e5e5 !important;
+	}
+
+	.box-pricing-default {
+		box-shadow: 3px 3px 0px 3px #e5e5e5 !important;
+	}
 
 	.box {
 		background: #fff;
