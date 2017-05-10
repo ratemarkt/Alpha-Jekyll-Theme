@@ -75,6 +75,18 @@
 		font-weight: bold;
 	}
 
+    .question {
+        position: absolute;
+        left: -30px;
+        top: 105px;
+        width: 250px;
+    }
+
+    .question img {
+        width: 100%;
+        height: auto;
+    }
+
     .launch {
         position: absolute;
         left: 68px;
@@ -2297,13 +2309,26 @@
 	}
 
 /* Box */
-
+	
 	.box-pricing {
 		padding: 1.5em !important;
 	}
 
 	.box-pricing-popular {
 		box-shadow: 10px 10px 0px 5px #e5e5e5 !important;
+	}
+
+	.box-pricing-popular .label {
+		background-color: #f78d95;
+		color: #fff;
+		border-radius: 5px;
+		padding: 5px 10px 5px 10px;
+		font-weight: bold;
+		font-size: 0.8em;
+		position:absolute;
+		top: -15px;
+		left: -15px;
+		box-shadow: 2px 2px 0px 2px #e5e5e5 !important;
 	}
 
 	.box-pricing-default {
