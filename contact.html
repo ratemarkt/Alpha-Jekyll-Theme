@@ -13,18 +13,21 @@ layout: default
 		<h3>Write us below what you would like to say.</h3>
 		<p>We'll get back to you as soon as possible within 48 hours.</p><br/>
 	</header>
-	<form method="post" action="#">
+	<form method="post" action="https://formspree.io/support@ratemarkt.com">
+		<input type="hidden" name="_next" value="//ratemarkt.com/thanks.html" />
+		<input type="text" name="_gotcha" style="display:none" />
+
 		<div class="row uniform 50%">
 			<div class="6u 12u(mobilep)">
 				<input type="text" name="name" id="name" value="" placeholder="Name" />
 			</div>
 			<div class="6u 12u(mobilep)">
-				<input type="email" name="email" id="email" value="" placeholder="Email" />
+				<input type="email" name="_replyto" id="email" value="" placeholder="Email" />
 			</div>
 		</div>
 		<div class="row uniform 50%">
 			<div class="12u">
-				<input type="text" name="subject" id="subject" value="" placeholder="Subject" />
+				<input type="text" name="_subject" id="subject" value="" placeholder="Subject" />
 			</div>
 		</div>
 		<div class="row uniform 50%">
