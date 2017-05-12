@@ -2308,17 +2308,22 @@
 		opacity: 1.0;
 	}
 
+.integration-type-icon {
+	font-size:10em;
+	color:#ccc;
+}
+
 /* Box */
 	
-	.box-pricing {
+	.box-column {
 		padding: 1.5em !important;
 	}
 
-	.box-pricing-popular {
+	.box-column-popular {
 		box-shadow: 10px 10px 0px 5px #e5e5e5 !important;
 	}
 
-	.box-pricing-popular .label {
+	.box-column-popular .label {
 		background-color: #f78d95;
 		color: #fff;
 		border-radius: 5px;
@@ -2331,9 +2336,14 @@
 		box-shadow: 2px 2px 0px 2px #e5e5e5 !important;
 	}
 
-	.box-pricing-default {
+	.box-column-default {
 		box-shadow: 3px 3px 0px 3px #e5e5e5 !important;
 	}
+
+	.box-column p {
+		min-height: 250px;
+	}
+
 
 	.box {
 		background: #fff;
