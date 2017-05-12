@@ -2340,7 +2340,7 @@
 		box-shadow: 3px 3px 0px 3px #e5e5e5 !important;
 	}
 
-	.box-column p {
+	.box-column-content {
 		min-height: 250px;
 	}
 
