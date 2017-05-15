@@ -3195,10 +3195,10 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #4686a0;
-		background-image: url(/assets/images/space.jpg), url(/assets/images/overlay3.svg), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+		background-image: url(/assets/images/overlay3.svg), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
 		background-position: top left,    center center,  center center;
 		background-repeat: repeat,							no-repeat;
-		background-size: 80%,    cover,  cover;
+		background-size: 100%,    cover,  cover;
 		color: rgba(255, 255, 255, 0.75);
 		padding: 12em 0 20em 0;
 		text-align: center;
